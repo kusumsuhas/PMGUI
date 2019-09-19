@@ -1,0 +1,54 @@
+<ObjRep>
+	<SurchargeTab>//em[text()='Surcharges']</SurchargeTab>
+	<SurchargesHUTab>//*[contains(@id,'fxfSurchargeDetailForm:hutabLbl')]</SurchargesHUTab>
+	<MinWeight>//*[contains(@id,'minWgtCompHU')]</MinWeight>
+	<MaxWeight>//*[contains(@id,'maxWgtCompHU')]</MaxWeight>
+	<StateMatrix>//*[contains(@id,'stateMatrixCompHU')]</StateMatrix>
+	<CurrencyType>//*[contains(@id,'currencyComp')]</CurrencyType>
+	<ShipmentCond>//*[contains(@id,'shipmentCondCompHU')]</ShipmentCond>
+	<SubjectGRI>//*[contains(@id,'griCompHU')]</SubjectGRI>
+	<Fromto1>//*[contains(@id,'geosHU_row_0')]//td[2]//input</Fromto1>
+	<Dir1>//*[contains(@id,'geosHU_row_0')]//td[3]//input</Dir1>
+	<Type1>//*[contains(@id,'geosHU_row_0')]//td[4]//input</Type1>
+	<Name1>//*[contains(@id,'geosHU_row_0')]//td[5]//input</Name1>
+	<State1>//*[contains(@id,'geosHU_row_0')]//td[6]//input</State1>
+	<County1>//*[contains(@id,'geosHU_row_0')]//td[7]//input</County1>
+	<Country1>//*[contains(@id,'geosHU_row_0')]//td[8]//input</Country1>
+	<Fromto2>//*[contains(@id,'geosHU_row_1')]//td[2]//input</Fromto2>
+	<Dir2>//*[contains(@id,'geosHU_row_1')]//td[3]//input</Dir2>
+	<Type2>//*[contains(@id,'geosHU_row_1')]//td[4]//input</Type2>
+	<Name2>//*[contains(@id,'geosHU_row_1')]//td[5]//input</Name2>
+	<State2>//*[contains(@id,'geosHU_row_1')]//td[6]//input</State2>
+	<County2>//*[contains(@id,'geosHU_row_1')]//td[7]//input</County2>
+	<Country2>//*[contains(@id,'geosHU_row_1')]//td[8]//input</Country2>
+	<ServiceDaysLow>//input[contains(@id,'svcDayLowCompHU')]</ServiceDaysLow>
+	<ServiceDaysHigh>//input[contains(@id,'svcDayHighCompHU')]</ServiceDaysHigh>
+	<AddLines>//*[contains(@id,'exceptionDetailsHU')]//table//tbody//tr//td[2]//input</AddLines>
+	<AddLinesClick>//*[contains(@id,'exceptionDetailsHU')]//table//tbody//tr//td[3]//input</AddLinesClick>
+	<Type>//select[contains(@id,'exceptionClassCompdropdownHU')]</Type>
+	<ClassNMFCLR>//select[contains(@id,'exceptionClassCompdropdownHU')]//..//..//td[3]//input</ClassNMFCLR>
+	<ClassNMFCHR>//select[contains(@id,'exceptionClassCompdropdownHU')]//..//..//td[4]//input</ClassNMFCHR>
+	<ExceptionClass>//select[contains(@id,'exceptionClassCompdropdownHU')]//..//..//td[5]//select</ExceptionClass>
+	<ExClassAll>//select[contains(@id,'exceptionClassCompHU')]</ExClassAll>
+	<ExClassMaxWgt>//input[contains(@id,'mxWgtCompHU')]</ExClassMaxWgt>
+	<HUType>//*[contains(@id,'huTypedropdownHU')]</HUType>
+	<TotalWaiverHUWgt>//*[contains(@id,'totalyWaivedropdowndropdownHU')]</TotalWaiverHUWgt>
+	<AvgHUWeight>//input[contains(@id,'avgHUWgtHU')]</AvgHUWeight>
+	<ExcessWgtClass>//*[contains(@id,'excessWeightTypedropdownHU')]</ExcessWgtClass>
+	<ExcessWgtFlag>//*[contains(@id,'excessWeightFlagdropdownHU')]</ExcessWgtFlag>
+	<RateManually>//*[contains(@id,'rateManuallyFlagCheckBoxHU')]</RateManually>
+	<Comments>//*[contains(@id,'commentIdHU')]</Comments>
+	<SaveClose>//input[contains(@id,'saveAndClose22')]</SaveClose>
+	<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+	<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfSurcharge')]</Overlay>
+	<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+	<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+	<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+	<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+	<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+	<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+	<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+	<Logout>//a//span[text()='Logout']</Logout>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfVD')]</Overlay>
+</ObjRep>

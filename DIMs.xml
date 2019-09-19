@@ -1,0 +1,39 @@
+<ObjRep>
+	<DIMsTab>//em[text()='DIMs']</DIMsTab>
+	<RateManually>//*[contains(@id,'rateManually')]</RateManually>
+	<AlternateFlag>//*[contains(@id,'alternationFlag')]</AlternateFlag>
+	<RatingClass>//*[contains(@id,'rateclassGrd')]//select</RatingClass>
+	<dimfact>//*[contains(@id,'dimFctrGrd')]//td[2]//input</dimfact>
+	<MinPCF>//*[contains(@id,'minimumPCFLbl')]</MinPCF>
+	<pcf1>//*[contains(@id,'PCFDetails:0:pcfValTxt')]</pcf1>
+	<pcf2>//*[contains(@id,'PCFDetails:1:pcfValTxt')]</pcf2>
+	<pcf3>//*[contains(@id,'PCFDetails:2:pcfValTxt')]</pcf3>
+	<pcf4>//*[contains(@id,'PCFDetails:3:pcfValTxt')]</pcf4>
+	<pcf5>//*[contains(@id,'PCFDetails:4:pcfValTxt')]</pcf5>
+	<pcf6>//*[contains(@id,'PCFDetails:5:pcfValTxt')]</pcf6>
+	<pcf7>//*[contains(@id,'PCFDetails:6:pcfValTxt')]</pcf7>
+	<pcf8>//*[contains(@id,'PCFDetails:7:pcfValTxt')]</pcf8>
+	<pcf9>//*[contains(@id,'PCFDetails:8:pcfValTxt')]</pcf9>
+	<pcf10>//*[contains(@id,'PCFDetails:9:pcfValTxt')]</pcf10>
+	<pcf11>//*[contains(@id,'PCFDetails:10:pcfValTxt')]</pcf11>
+	<pcf12>//*[contains(@id,'PCFDetails:11:pcfValTxt')]</pcf12>
+	<pcf13>//*[contains(@id,'PCFDetails:12:pcfValTxt')]</pcf13>
+	<pcf14>//*[contains(@id,'PCFDetails:13:pcfValTxt')]</pcf14>
+	<pcf15>//*[contains(@id,'PCFDetails:14:pcfValTxt')]</pcf15>
+	<pcf16>//*[contains(@id,'PCFDetails:15:pcfValTxt')]</pcf16>
+	<pcf17>//*[contains(@id,'PCFDetails:16:pcfValTxt')]</pcf17>
+	<pcf18>//*[contains(@id,'PCFDetails:17:pcfValTxt')]</pcf18>
+	<Comments>//*[contains(@id,'inputTextArea')]</Comments>
+	<SaveClose>//*[contains(@id,'saveAndClose1')]</SaveClose>
+	<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+	<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfDims')]</Overlay>
+	<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+	<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+	<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+	<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+	<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+	<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+	<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+	<Logout>//a//span[text()='Logout']</Logout>
+</ObjRep>

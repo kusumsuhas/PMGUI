@@ -1,0 +1,66 @@
+<ObjRep>
+	<VDTab>//em[text()='Volume Discounts']</VDTab>
+	<MileageRates>//*[contains(@id,'tab3Lbl')]</MileageRates>
+	<No>//*[contains(@id,'confirmDialogFXFWB_main')]//td[2]//input</No>
+	<MinWeight>//*[contains(@id,'minId')]//input</MinWeight>
+	<MaxWeight>//*[contains(@id,'maxId1')]//input</MaxWeight>
+	<StateMatrix>//*[contains(@id,'stateId')]//input</StateMatrix>
+	<ShipmentCond>//select[contains(@id,'shipmentCond1')]</ShipmentCond>
+	<CurrencyType>//*[contains(@id,'curGrd')]//select</CurrencyType>
+	<PreminumSA>//*[contains(@id,'premiumSvcApply')]</PreminumSA>
+	<SurchargeRule>//*[contains(@id,'surchargeRules')]</SurchargeRule>
+	<ApplyAC>//*[contains(@id,'applyArbitraryCharges')]</ApplyAC>
+	<SubjectGRI>//*[contains(@id,'subjectToGRI')]</SubjectGRI>
+	<Authority>//*[contains(@id,'fuelSurchargeAuthority')]//input</Authority>
+	<Number>//*[contains(@id,'fuelSurchargeNumber')]//input</Number>
+	<Item>//*[contains(@id,'fSecItmLbl')]//..//..//td[2]//input</Item>
+	<ItemSuffix>//*[contains(@id,'fuelSurchargeItem')]//input</ItemSuffix>
+	<AdjPercentage>//*[contains(@id,'adjustment11')]//..//..//td[2]</AdjPercentage>
+	<AdjPoint>//*[contains(@id,'adjustmentPoin')]//..//..//td[2]</AdjPoint>
+	<IncDec>//*[contains(@id,'increase')]//..//..//td[2]//select</IncDec>
+	<Fromto1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjIEvalTxt')]</Fromto1>
+	<Dir1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjdirTxt')]</Dir1>
+	<Type1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjtypeTxt')]</Type1>
+	<Name1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjnameTxt')]</Name1>
+	<State1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjstateTxt')]</State1>
+	<County1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjcountryTxt')]//..//..//..//td[7]//div//input</County1>
+	<Country1>//*[contains(@id,'weightBreakGeographyDetails:0:wtBrkDisAdjcountryTxt1')]</Country1>
+	<Fromto2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjIEvalTxt')]</Fromto2>
+	<Dir2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjdirTxt')]</Dir2>
+	<Type2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjtypeTxt')]</Type2>
+	<Name2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjnameTxt')]</Name2>
+	<State2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjstateTxt')]</State2>
+	<County2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjcountryTxt')]//..//..//..//td[7]//div//input</County2>
+	<Country2>//*[contains(@id,'weightBreakGeographyDetails:1:wtBrkDisAdjcountryTxt1')]</Country2>
+	<ServiceDaysLow>//*[contains(@id,'low')]//..//..//td[2]//input</ServiceDaysLow>
+	<ServiceDaysHigh>//*[contains(@id,'high')]//..//..//td[2]//input</ServiceDaysHigh>
+	<ExceptionClassAll>//*[contains(@id,'exceptionClassAll1')]</ExceptionClassAll>
+	<ExClassMaxWt>//*[contains(@id,'clsMaxTxt')]</ExClassMaxWt>
+	<ManualRate>//*[contains(@id,'huChkbox')]</ManualRate>
+	<Alternate>//*[contains(@id,'alternateMenu')]</Alternate>
+	<MileageAuth>//*[contains(@id,'milegVal')]</MileageAuth>
+	<MileageAuthNo>//*[contains(@id,'milegNoVal')]</MileageAuthNo>
+	<MinMileage>//*[contains(@id,'mimMilVal')]</MinMileage>
+	<MaxMileage>//*[contains(@id,'maxMilTxt11')]</MaxMileage>
+	<AMC1>//*[contains(@id,'milClassGrd1')]//td[3]//table//input</AMC1>
+	<RatePerMile>//*[contains(@id,'minWgtPerHUInt')]</RatePerMile>
+	<RatePerCWT>//*[contains(@id,'fXFVDDetailsHURates:0:maxWgtPerHUIn')]//..//..//..//td[4]//input</RatePerCWT>
+	<FlatCharge>//*[contains(@id,'maxWgtPerHUInt1')]</FlatCharge>
+	<ManageWgtBrk>//*[contains(@id,'deleteSelectedLines41')]</ManageWgtBrk>
+	<PopUp>//*[contains(@id,'refreshButtonManageWtBrkPopupFXGSP3')]</PopUp>
+	<SaveMngWgtBrk>//*[contains(@id,'bottomSaveAndClickButtonManageWtBrkPopup')]</SaveMngWgtBrk>
+	<AMC2>//*[contains(@id,'minWgtPerHUInt12')]</AMC2>
+	<Comments>//*[contains(@id,'inputTextArea')]</Comments>
+	<SaveClose>//*[contains(@id,'saveAndClose2')]</SaveClose>
+	<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+	<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfVD')]</Overlay>
+	<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+	<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+	<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+	<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+	<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+	<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+	<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+	<Logout>//a//span[text()='Logout']</Logout>
+</ObjRep>

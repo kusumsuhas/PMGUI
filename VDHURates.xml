@@ -1,0 +1,65 @@
+<ObjRep>
+	<VDTab>//em[text()='Volume Discounts']</VDTab>
+	<HURates>//*[contains(@id,'tab4Lbl')]</HURates>
+	<No>//*[contains(@id,'confirmDialogFXFWB_main')]//td[2]//input</No>
+	<MinWeight>//*[contains(@id,'minId')]</MinWeight>
+	<MaxWeight>//*[contains(@id,'maxId1')]</MaxWeight>
+	<StateMatrix>//*[contains(@id,'stateId')]</StateMatrix>
+	<ShipmentCond>//*[contains(@id,'shipmentCond1')]</ShipmentCond>
+	<CurrencyType>//*[contains(@id,'curGrd')]//select</CurrencyType>
+	<PreminumSA>//*[contains(@id,'premiumSvcApply')]</PreminumSA>
+	<SurchargeRule>//*[contains(@id,'surchargeRules')]</SurchargeRule>
+	<ApplyAC>//*[contains(@id,'applyArbitraryCharges')]</ApplyAC>
+	<SubjectGRI>//*[contains(@id,'subjectToGRI')]</SubjectGRI>
+	<Authority>//*[contains(@id,'fuelSurchargeAuthority')]</Authority>
+	<Number>//*[contains(@id,'fuelSurchargeNumber')]</Number>
+	<Item>//*[contains(@id,'fSecItmLbl')]//..//..//td[2]//input</Item>
+	<ItemSuffix>//*[contains(@id,'fuelSurchargeItem')]</ItemSuffix>
+	<AdjPercentage>//*[contains(@id,'adjustment11')]//..//..//td[2]//input</AdjPercentage>
+	<AdjPoint>//*[contains(@id,'adjustmentPoin')]//..//..//td[2]</AdjPoint>
+	<IncDec>//*[contains(@id,'increase')]//..//..//td[2]//select</IncDec>
+	<Fromto1>//*[contains(@id,'huRatesGeographyDetails:0:IEvalTxt')]</Fromto1>
+	<Dir1>//*[contains(@id,'huRatesGeographyDetails:0:dirTxt')]</Dir1>
+	<Type1>//*[contains(@id,'huRatesGeographyDetails:0:typeTxt')]</Type1>
+	<Name1>//*[contains(@id,'huRatesGeographyDetails:0:nameTxt')]</Name1>
+	<State1>//*[contains(@id,'huRatesGeographyDetails:0:stateTxt')]</State1>
+	<County1>//*[contains(@id,'huRatesGeographyDetails:0:countryTxt')]//..//..//..//td[7]//div//input</County1>
+	<Country1>//*[contains(@id,'huRatesGeographyDetails:0:countryTxt1')]</Country1>
+	<Fromto2>//*[contains(@id,'huRatesGeographyDetails:1:IEvalTxt')]</Fromto2>
+	<Dir2>//*[contains(@id,'huRatesGeographyDetails:1:dirTxt')]</Dir2>
+	<Type2>//*[contains(@id,'huRatesGeographyDetails:1:typeTxt')]</Type2>
+	<Name2>//*[contains(@id,'huRatesGeographyDetails:1:nameTxt')]</Name2>
+	<State2>//*[contains(@id,'huRatesGeographyDetails:1:stateTxt')]</State2>
+	<County2>//*[contains(@id,'huRatesGeographyDetails:1:countryTxt')]//..//..//..//td[7]//div//input</County2>
+	<Country2>//*[contains(@id,'huRatesGeographyDetails:1:countryTxt1')]</Country2>
+	<ExceptionClassAll>//*[contains(@id,'exceptionClassAll1')]</ExceptionClassAll>
+	<ExClassMaxWt>//*[contains(@id,'clsMaxTxt')]</ExClassMaxWt>
+	<HUType>//*[contains(@id,'hUTypeMenu')]</HUType>
+	<Alternate>//*[contains(@id,'alternateMenu')]</Alternate>
+	<MileageAuth>//*[contains(@id,'milegVal')]</MileageAuth>
+	<MileageAuthNo>//*[contains(@id,'milegNoVal')]</MileageAuthNo>
+	<MinMileage>//*[contains(@id,'mimMilVal')]</MinMileage>
+	<MaxMileage>//*[contains(@id,'maxMilTxt')]</MaxMileage>
+	<HUMin>//*[contains(@id,'fXFVDDetailsHURates:0:huMinInt')]</HUMin>
+	<HuMax>//*[contains(@id,'fXFVDDetailsHURates:0:huMzxInt')]</HuMax>
+	<MinWgtperHU>//*[contains(@id,'fXFVDDetailsHURates:0:minWgtPerHUInt')]</MinWgtperHU>
+	<MaxWgtPerHU>//*[contains(@id,'fXFVDDetailsHURates:0:maxWgtPerHUInt1')]</MaxWgtPerHU>
+	<RateType>//*[contains(@id,'rateType')]//select</RateType>
+	<Rate>//*[contains(@id,'fXFVDDetailsHURates:0:rateTypeType')]//..//..//..//td[7]//input</Rate>
+	<AMC>//*[contains(@id,'fXFVDDetailsHURates:0:amcInt')]</AMC>
+	<MaxChrgShp>//*[contains(@id,'fXFVDDetailsHURates:0:maxCharShpInt')]</MaxChrgShp>
+	<ManualRate>//*[contains(@id,'fXFVDDetailsHURates:0:mnlChkbox')]</ManualRate>
+	<Comments>//*[contains(@id,'inputTextArea')]</Comments>
+	<SaveClose>//*[contains(@id,'saveAndClose2')]</SaveClose>
+	<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+	<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfVD')]</Overlay>
+	<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+	<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+	<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+	<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+	<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+	<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+	<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+	<Logout>//a//span[text()='Logout']</Logout>
+</ObjRep>
