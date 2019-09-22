@@ -1,0 +1,5 @@
+<ObjRep>
+<SummaryAdd>//*[contains(@id,'princingSummaryAdd')]</SummaryAdd>
+<ServiceSelect>//span/div/div/ul//*[contains(text(),'"+selectService+"')]</ServiceSelect>
+<Continue>//div[3]//*[@type='submit'][@value='Continue']</Continue>
+</ObjRep>

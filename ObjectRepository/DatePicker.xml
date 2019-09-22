@@ -1,0 +1,12 @@
+<ObjRep>
+<StartDateVDED>//*[contains(@id,'SDLbl')]//..//..//td[2]//input</StartDateVDED>
+<EndDateVDED>//*[contains(@id,'EDLbl')]//..//..//td[2]//input</EndDateVDED>
+<StartDateDIMs>//*[contains(@id,'sdLbl')]//..//..//td[2]//input</StartDateDIMs>
+<EndDateDIMs>//*[contains(@id,'dsLbl')]//..//..//td[2]//input</EndDateDIMs>
+<StartDateSurcharge>//*[contains(@id,'startDateComp_input')]</StartDateSurcharge>
+<EndDateSurcharge>//*[contains(@id,'endDateComp_input')]</EndDateSurcharge>
+<StartDateGrace>//*[contains(@id,'graceStartDate_input')]</StartDateGrace>
+<EndDateGrace>//*[contains(@id,'graceEndDate_input')]</EndDateGrace>
+<year>//*[@id='ui-datepicker-div']/div/div/select[2]</year>
+<month>//*[@id='ui-datepicker-div']/div/div/select[1]</month>
+</ObjRep>

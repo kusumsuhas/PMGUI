@@ -1,0 +1,12 @@
+<ObjRep>
+<AllRegions>//*[text()='Show all Regions']</AllRegions>
+<SelectedCountries>/html/body/table/tbody/tr[2]/td[2]/table/tbody/tr[3]/td/div/table/tbody/tr/td[2]/div/div/form[1]/div/table/tbody/tr/td/div/div[1]/div[2]/div[2]/div/div[2]/span[3]/div/div/ul</SelectedCountries>
+<RemoveSelectedCountry>//*[contains(@id,'SvcSelsCntry:0')]</RemoveSelectedCountry>
+<AllOpCos>//*[contains(@id,'showAllOpcoCheckBox')]</AllOpCos>
+<FreightOpCo>//*[contains(@id,'SvcSelselectedOpco1:2')]</FreightOpCo>
+<Refresh>//*[contains(@id,'SvcSelRefrshBtn')]</Refresh>
+<Continue>//*[contains(@id,'CntnueBtn')]</Continue>
+<IntraCountry>//*[contains(@id,'SVCSEL2tbPne1Lbl')]</IntraCountry>
+<International>//*[contains(@id,'SVCSEL2tbPne2Lbl')]</International>
+<Surcharges>//*[contains(@id,'SVCSEL2tbPne3Lbl')]</Surcharges>
+</ObjRep>

@@ -1,0 +1,6 @@
+<ObjRep>
+<input>//*[@id='accountEntryForm:AEaccountId_input']</input>
+<CENIorEAN>//*[@id='accountEntryForm:AEcontractingEntityLevelData']</CENIorEAN>
+<LookupAdd>accountEntryForm:AELookupAddBtn</LookupAdd>
+<Continue>accountEntryForm:AEcntBtn</Continue>
+</ObjRep>

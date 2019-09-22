@@ -1,0 +1,23 @@
+<ObjRep>
+<EDTab>//em[text()='Earned Discounts']</EDTab>
+<AggID>//*[contains(@id,'aggregationId')]</AggID>
+<GracePeriod>//*[contains(@id,'fxfGracePeriod')]</GracePeriod>
+<GraceDiscount>//*[contains(@id,'graceDscntInput')]</GraceDiscount>
+<AddTier>//*[contains(@id,'addTiers')]</AddTier>
+<AddRows>//input[contains(@id,'rowIn1')]</AddRows>
+<AddKey>//*[contains(@id,'adk1')]</AddKey>
+<TierValue1>//input[contains(@id,'lowerTier')]</TierValue1>
+<TierDiscountID>//input[contains(@id,'tierdiscountID')]</TierDiscountID>
+<SaveClose>//*[contains(@id,'saveAndCloseBottom')]</SaveClose>
+<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+<Overlay>//*[contains(@id,'continueButton')]</Overlay>
+<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+<Logout>//a//span[text()='Logout']</Logout>
+</ObjRep>

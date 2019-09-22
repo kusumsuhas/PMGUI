@@ -1,0 +1,56 @@
+<ObjRep>
+	<SurchargeTab>//em[text()='Surcharges']</SurchargeTab>
+	<SurchargesCODTab>//*[contains(@id,'fxfSurchargeDetailForm:CODTabLbl')]</SurchargesCODTab>
+	<MinWeight>//*[contains(@id,'minWgtComp22')]</MinWeight>
+	<MaxWeight>//*[contains(@id,'maxWgtComp22')]</MaxWeight>
+	<StateMatrix>//*[contains(@id,'stateMatrixComp22')]</StateMatrix>
+	<ShipmentCond>//select[contains(@id,'shipmentCondComp22')]</ShipmentCond>
+	<CurrencyType>//*[contains(@id,'currencyComp23')]</CurrencyType>
+	<SubjectGRI>//*[contains(@id,'griComp22')]</SubjectGRI>
+	<Fromto1>//*[contains(@id,'geos22_row_0')]//td[2]//input</Fromto1>
+	<Dir1>//*[contains(@id,'geos22_row_0')]//td[3]//input</Dir1>
+	<Type1>//*[contains(@id,'geos22_row_0')]//td[4]//input</Type1>
+	<Name1>//*[contains(@id,'geos22_row_0')]//td[5]//input</Name1>
+	<State1>//*[contains(@id,'geos22_row_0')]//td[6]//input</State1>
+	<County1>//*[contains(@id,'geos22_row_0')]//td[7]//input</County1>
+	<Country1>//*[contains(@id,'geos22_row_0')]//td[8]//input</Country1>
+	<Fromto2>//*[contains(@id,'geos22_row_1')]//td[2]//input</Fromto2>
+	<Dir2>//*[contains(@id,'geos22_row_1')]//td[3]//input</Dir2>
+	<Type2>//*[contains(@id,'geos22_row_1')]//td[4]//input</Type2>
+	<Name2>//*[contains(@id,'geos22_row_1')]//td[5]//input</Name2>
+	<State2>//*[contains(@id,'geos22_row_1')]//td[6]//input</State2>
+	<County2>//*[contains(@id,'geos22_row_1')]//td[7]//input</County2>
+	<Country2>//*[contains(@id,'geos22_row_1')]//td[8]//input</Country2>
+	<ServiceDaysLow>//*[contains(@id,'svcDayLowComp')]</ServiceDaysLow>
+	<ServiceDaysHigh>//*[contains(@id,'svcDayHighComp')]</ServiceDaysHigh>
+	<ExClassAll>//*[contains(@id,'exceptionClassComp')]</ExClassAll>
+	<ExClassMaxWgt>//*[contains(@id,'mxWgtComp')]</ExClassMaxWgt>
+	<AddLines>//div[4]//div//div//div//div//table//tr//td[3]//input[@type='submit'][@value='Add Lines']//..//..//td[2]//input</AddLines>
+	<AddLinesClick>//div[4]//div//div//div//div//table//tr//td[3]//input[@type='submit'][@value='Add Lines']</AddLinesClick>
+	<NMFC_Class>//select[contains(@id,'exceptionClassCompdropdown')]</NMFC_Class>
+	<ClassNMFCLR>//select[contains(@id,'exceptionClassCompdropdown')]//..//..//td[3]//input</ClassNMFCLR>
+	<ClassNMFCHR>//select[contains(@id,'exceptionClassCompdropdown')]//..//..//td[4]//input</ClassNMFCHR>
+	<ExceptionClass>//*[contains(@id,'exceptionClassCompdropdown')]//..//..//td[5]//select</ExceptionClass>
+	<MinCODAmt>//*[contains(@id,'CODTypedropDown')]//..//..//td[2]//input</MinCODAmt>
+	<MaxCODAmt>//*[contains(@id,'CODTypedropDown')]//..//..//td[3]//input</MaxCODAmt>
+	<Type>//*[contains(@id,'CODTypedropDown')]</Type>
+	<IncrDecr>//*[contains(@id,'CODTypedropDown')]//..//..//td[5]//select</IncrDecr>
+	<CODFlatFee>//*[contains(@id,'CODTypedropDown')]//..//..//td[6]//input</CODFlatFee>
+	<CODFeePercent>//*[contains(@id,'CODTypedropDown')]//..//..//td[7]//input</CODFeePercent>
+	<PerCODAmount>//*[contains(@id,'CODTypedropDown')]//..//..//td[8]//input</PerCODAmount>
+	<MinCharge>//*[contains(@id,'CODTypedropDown')]//..//..//td[9]//input</MinCharge>
+	<MaxCharge>//*[contains(@id,'CODTypedropDown')]//..//..//td[10]//input</MaxCharge>
+	<Comments>//*[contains(@id,'commentId')]</Comments>
+	<SaveClose>//*[contains(@id,'saveAndClose22')]</SaveClose>
+	<Warning>//span[text()='No pricing change exists for each of the CENIs selected, to submit to eDD']</Warning>
+	<WarningConfirm>//*[contains(@id,'rec-errorDailouge-ok')]</WarningConfirm>
+	<Overlay>//*[contains(@id,'continueButtonOverlayFxfSurcharge')]</Overlay>
+	<PricingContinue>//*[contains(@id,'pricingSummaryContinue')]</PricingContinue>
+	<proposalNo>sbFrm:sbRAgNpropsal_input</proposalNo>
+	<ReqNo>//*[contains(@name,'sbFrm:sbRqNm_input')]</ReqNo>
+	<AgreeNo>//*[contains(@name,'sbFrm:sbRAgN_input')]</AgreeNo>
+	<SaveSubmit>//*[contains(@name,'sbFrm:sbSAS')]</SaveSubmit>
+	<Confirm>//*[contains(@name,'sbFrm:sbYBtn')]</Confirm>
+	<Confirmation>//span[text()='Your Pricing Maintenance request has been successfully submitted to eDD']</Confirmation>
+	<Logout>//a//span[text()='Logout']</Logout>
+</ObjRep>

@@ -1,0 +1,6 @@
+<ObjRep>
+<inbox>//span[text()='Inbox']</inbox>
+<PricingImplementationUser>//span[text()='Pricing Implementation User']</PricingImplementationUser>
+<PricingMaintenance>//span[text()='Pricing Maintenance']</PricingMaintenance>
+<AccountEntry>//span[text()='Account Entry']</AccountEntry>
+</ObjRep>
